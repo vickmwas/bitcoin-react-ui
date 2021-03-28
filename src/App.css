@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+}
+
+h1 {
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,20 +18,69 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+#previous-price-span {
+  padding-top: 4vh;
+}
+
+.main {
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
+  padding-top: 8vh;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.trend {
+  margin: 0px 7px;
+  width: 24px;
 }
+
+#current-price-amount {
+  font-size: calc(10px + 3vmin);
+} 
+
+.App-link {
+  font-family: 'Avenir';
+  font-weight: bold;
+  color: white;
+  margin-top: 8vh;
+  background: #0d8e82;
+  padding: 15px 62px;
+  border-radius: 27px;
+  font-size: 19px;
+  text-decoration: none;
+  border-color: #00000000;
+}
+
+.App-link-loading {
+  font-family: 'Avenir';
+  font-weight: bold;
+  color: white;
+  margin-top: 8vh;
+  background: #06a2d1;
+  padding: 15px 62px;
+  border-radius: 27px;
+  font-size: 19px;
+  text-decoration: none;
+  border-color: #00000000;
+}
+
+.error {
+  font-family: 'Avenir';
+  font-weight: bold;
+  color: white;
+  margin-top: 8vh;
+  background: red;
+  padding: 15px 62px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
