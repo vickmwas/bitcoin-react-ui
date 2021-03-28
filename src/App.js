@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from "axios";
-import logo from './logo.svg';
+import logo from './bitcoin-logo.svg';
 import trending_up from './trending_up.svg';
 import trending_down from './trending_down.svg';
 import trending_unchanged from './trending_unchanged.svg';
